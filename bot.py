@@ -9,6 +9,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 logging.getLogger("httpx").setLevel(logging.WARNING)
+from keep_alive import keep_alive
+
+keep_alive()
 
 # دستور شروع ربات
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):

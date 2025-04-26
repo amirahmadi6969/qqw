@@ -17,7 +17,6 @@ keep_alive()
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "سلام، به ربات لرنیتکس امدید 🌟\n"
-        "(طراح:امیرمحمد)\n"
         "لطفاً سوال یا متن خود را ارسال کنید تا پاسخ آن را برایتان بنویسم. 📝"
     )
 

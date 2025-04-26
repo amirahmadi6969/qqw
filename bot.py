@@ -56,7 +56,7 @@ async def make_text_response(update: Update, context: ContextTypes.DEFAULT_TYPE)
         await update.message.reply_text("❌ خطا در ارتباط با سرور. لطفاً بعداً دوباره تلاش کنید.")
 
 # راه‌اندازی ربات
-application = ApplicationBuilder().token('7018830857:AAE04BaK67RskmJJAAgJ5h_7h9IJntKcav8').build()
+application = ApplicationBuilder().token('8136031342:AAFEs9nQyEqRByLTF3v7pxqvd0btI-ELSUU').build()
 application.add_handler(CommandHandler('start', start))
 application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, make_text_response))
 application.run_polling()
